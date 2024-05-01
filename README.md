@@ -17,3 +17,20 @@ add the attached scripts to the correct location in your nagios edit the files t
 add the folder locations of your scripts 
 
 restart nagios 
+
+files 
+
+nagios_to_opsgenie.sh is the create alert script 
+close_nagios_to_opsgenie.sh close the open alert of state OK
+command-example.cfg for the commands you need to send the service/host alerts
+contact-example.cfg to send to the opsgenie contact
+generic-service-example.cfg to make sure the close event gets sent automatically 
+
+note that your service alert will need to be created 
+
+define service{
+        use                             generic-service         ; Name of service template to use
+        host_name                       hostname
+        service_description             service to monitor
+        check_command                   check_command
+        }
