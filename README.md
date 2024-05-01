@@ -30,7 +30,7 @@ contact-example.cfg to send to the opsgenie contact
 
 generic-service-example.cfg to make sure the close event gets sent automatically 
 
-note that your service alert will need to be created 
+note that your service alert will need to be created using the generic-service like below or add the event handler to each service used
 
 
 
