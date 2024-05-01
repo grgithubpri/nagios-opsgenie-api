@@ -34,8 +34,12 @@ note that your service alert will need to be created
 
 
 define service{
+
         use                             generic-service         ; Name of service template to use
+        
         host_name                       hostname
+        
         service_description             service to monitor
+        
         check_command                   check_command
         }
