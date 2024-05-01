@@ -33,6 +33,8 @@ generic-service-example.cfg to make sure the close event gets sent automatically
 note that your service alert will need to be created 
 
 
+
+
 define service{
         use                             generic-service         ; Name of service template to use
         
