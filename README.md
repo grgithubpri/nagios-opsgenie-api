@@ -3,7 +3,7 @@ Scripts to integrate nagios core to ops genie api without the nagios plugin
 
 There was no easy to find documentation for integrating nagios core without the plugin
 
-https://docs.opsgenie.com/docs/alert-api (REF HERE)
+https://docs.opsgenie.com/docs/alert-api (ops genie docs)
 ----------------------------------------------------
 
 From ops Genie go to team > your-team > integration 
